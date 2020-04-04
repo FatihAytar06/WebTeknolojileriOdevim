@@ -5,5 +5,8 @@ Web Teknolojileri Projesi
 <br>
 -Kendimi ve şehrimi tanıtan kişisel bir web sitesi geliştirmek
 <br><b>Proje İçeriği:</b><br>
-<pre><b>AnaSayfa</b></pre>
+<b>AnaSayfa</b>
+<br>
+<pre>-Şehrim ile alakalı arka plana sahip bir site görünümü ve diğer sayfalara
+ulaşabilmemi sağlayacak menüler</pre>
 
