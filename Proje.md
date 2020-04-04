@@ -47,6 +47,6 @@ tekrar döndürülmeli
 3)Gerekli html kodlarının yazılması
 4)Sitenin tasarım kodlarının yazılması
 5)Gerekli php ve JS kod dosyalarının yazılması
-6)Projeyenin son rütuşlarının verilmesi
+6)Projeye son rütuşlarının verilmesi
 </pre>
 
