@@ -17,9 +17,7 @@ ulaşabilmemi sağlayacak menüler</pre>
 <b>Şehrim Bölümü</b><br>
 <pre>
 -Şehrimi tanıtan bilgilerin yer aldığı sayfa
-<br>
 -Şehrime ait tarihi eserlerin resimleri ve bilgileri
-<br>
 -Resimlere tıklandığı zaman resimlere ait içerik sayfaları açılacak
 </pre>
 
