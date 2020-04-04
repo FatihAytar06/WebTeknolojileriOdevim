@@ -1,2 +1,3 @@
-# WebTeknolojileriOdevim
-Web Teknolojileri Ödevim
+# WebTeknolojileriProjem
+Web Teknolojileri Projesi
+<hr>
