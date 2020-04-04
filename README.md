@@ -1,6 +1,6 @@
 # WebTeknolojileriProjem
 Web Teknolojileri Projesi
 <hr>
-Projenin Amacı :
+<bold>Projenin Amacı :</bold>
 <br>
 -Kendimi ve şehrimi tanıtan kişisel bir web sitesi geliştirmek
