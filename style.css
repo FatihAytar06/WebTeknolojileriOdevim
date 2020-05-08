@@ -1,0 +1,708 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+#main{
+   background-color:  #18BC9C;
+    height: 30rem;
+    margin-top: 0;
+}
+.anit-body{
+    background-color: #fff;
+    height: 40rem;
+}
+.anit-body2{
+    background-color: #FADAD0;
+    height: 30rem;
+}
+#main ul li{
+    color:#fff;
+    text-indent: 1rem;
+    padding-top: 1rem;
+}
+.log{
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.kale {
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/ankara-kalesi.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.haci_bayram{
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/haci_bayram.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.anitkabir{
+    
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/anitkabir.jpg);
+    background-size: cover;
+    background-position: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+
+.anitkabir2{
+    
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/anitkabir2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+.anitkabir3{
+    
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/aslanli_yol.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+.meclis{
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/meclis.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.kocatepe{
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/kocatepe-camii.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.muze{
+     position: relative;
+    width: 100%;
+    height: 60rem;
+    background-image: url(images/muze.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(wp2134642.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.container3 {
+    padding-top: 4rem;
+    color: white;
+
+}
+
+.cont-4 {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.blog-post {
+    height: 100%;
+}
+
+.blog-text {
+    margin-top: 15px;
+    margin-bottom: 500px;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 22px;
+    text-align: justify;
+    height: 100%;
+    padding: 4rem 4rem;
+}
+
+.blog-title a {
+    color: rgb(94, 238, 255);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.blog-title a:hover {
+    color: #444;
+}
+
+.box {
+
+    margin-bottom: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2 8 2px rgba(20, 23, 28, 0.15);
+    border-radius: 10px;
+    height: 100%;
+
+}
+
+.container4 {
+    margin-top: 1rem;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    transform: translate(-50%, 0);
+}
+
+/*navbar*/
+nav {
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-color: #2D3B4F;
+    color: #fff;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    position: fixed;
+    z-index: 500;
+}
+
+#nav-links {
+    float: left;
+}
+#nav-links ul{
+    margin-left: 3rem;
+}
+
+
+#log-links {
+    float: right;
+}
+
+#log-links li {
+    float: left;
+}
+#log-links2 {
+    float: right;
+}
+#log-links2 ul{
+    margin-right: -22rem;
+}
+
+#log-links2 li {
+    float: left;
+}
+
+#nav-links li {
+    float: left;
+}
+
+#nav-links .nav-item {
+    float: left;
+}
+
+#nav-links .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+    display: block;
+    letter-spacing: .1rem;
+    transition: color .3s;
+    margin-left: 1rem;
+}
+#nav-links2 {
+    float: left;
+}
+#nav-links2 li {
+    float: left;
+    margin-right: 3rem;
+}
+#nav-links2 ul{
+    margin-left: -19rem;
+}
+#nav-links2 .nav-item {
+    float: left;
+}
+#nav-links2 .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+    display: block;
+    letter-spacing: .1rem;
+    transition: color .3s;
+}
+#log-links .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+    display: block;
+    letter-spacing: .1rem;
+    transition: color .3s;
+}
+#log-links2 .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.6rem;
+    display: block;
+    letter-spacing: .1rem;
+    transition: color .3s;
+}
+
+#nav-links .nav-link:hover {
+    color: #36BA9C;
+}
+#nav-links2 .nav-link:hover {
+    color: #36BA9C;
+}
+
+#log-links .nav-link:hover {
+    color: rgb(255, 17, 175);
+}
+#log-links2 .nav-link:hover {
+    color: rgb(255, 17, 175);
+}
+/*header*/
+header {
+    background-color: #18BC9C;
+    padding-top: 10rem;
+    text-align: center;
+    height: 80rem;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10rem;
+}
+
+.hakkinda {
+    background-image: linear-gradient(to right, rgba(124, 118, 118, 0.9), rgba(211, 211, 211, 0.5)), url("Ben Kimim.jpg");
+    height: 100%;
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+}
+
+.sehir {
+    background: none;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 7.6rem;
+}
+
+.star-light {
+    border: none;
+    border-top: .4rem solid #fff;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    margin-bottom: .5rem;
+    height: 0;
+}
+
+.star {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 3.2rem;
+    position: relative;
+    top: -25px;
+    background-color: #18BC9C;
+    padding: 0 1rem;
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 2.8rem;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+/*Portfolio*/
+#portfolio {
+    height: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.fas {
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 5rem;
+    width: 80rem;
+    margin-left: 15rem;
+}
+
+.card-title {
+    height: 1rem;
+}
+
+#portfolio h2 {
+    font-size: 4.8rem;
+    color: #2C3E50;
+    font-family: 'Merriweather', serif;
+    letter-spacing: .5rem;
+}
+
+.container #star {
+    color: #2C3E50;
+    background-color: #fff;
+    padding-top: .3rem;
+}
+
+.star-dark {
+    border: none;
+    border-top: .4rem solid #2C3E50;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    margin-bottom: .5rem;
+    height: 0;
+}
+
+.col {
+    float: left;
+    width: 33.3333%;
+    padding: 10px;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item:hover .img-overlay {
+    opacity: 0.8;
+}
+
+.portfolio-item img {
+    display: block;
+}
+
+.sayfa {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.table-head {
+    width: 70rem;
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.info {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.info2{
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-indent: 3rem;
+    padding-top: 2rem;
+    font-family: 'Libre Caslon Text', serif;
+    margin: 0 1rem;
+}
+
+first {
+    position: absolute;
+    width: 100%;
+
+}
+
+.table-sec {
+    width: 50%;
+    float: left;
+}
+
+.table-third {
+    width: 100%;
+}
+
+.table-third tr td {
+    box-sizing: border-box;
+    width: 34.5rem;
+    height: 3.3rem;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    text-align: left;
+    text-indent: 1.5rem;
+}
+.sec tr td{
+    width: 20rem;
+    height: 3.3rem;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    text-align: left;
+    text-indent: 1.5rem;
+}
+.sec{
+    margin-left: 37%;
+    margin-top: 15rem;
+}
+table tr td {
+    width: 17rem;
+    height: 3.3rem;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    text-align: left;
+    text-indent: 1.5rem;
+    
+}
+
+table tr:nth-child(odd):hover {
+    background-color: rgb(0, 246, 255);
+}
+
+table tr:nth-child(even):hover {
+    background-color: rgb(0, 255, 187);
+}
+.iki tr td{
+    width: 20rem;
+}
+
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #18BC9C;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.img-overlay .icon {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: calc(50% + 2rem);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-overlay .icon i {
+    font-size: 6rem;
+}
+
+@media screen and (min-width:400px) {
+    html {
+        font-size: 7px;
+    }
+
+    header {
+        height: 90rem;
+    }
+
+    .card {
+        margin-top: 5rem;
+        width: 68rem;
+        margin-left: 0;
+    }
+    #log-links2 ul{
+    margin-right: 0;
+}
+    #nav-links2 ul{
+    margin-left: 0;
+}
+    #nav-links2 li{
+    margin-right: 1rem;
+}
+    .anit-body{
+        height: 43rem;
+    }
+     .anit-body2{
+        height: 40rem;
+    }
+    #nav-links ul{
+    margin-left: 1rem;
+}
+    input[type="text"],input[type="password"],input[type="email"]{
+        width: 17rem;
+    }
+}
+
+@media screen and (min-width:700px) {
+    html {
+        font-size: 9px;
+    }
+
+    header {
+        height: 80rem;
+    }
+
+    #nav-links {
+        float: left;
+        margin-left: -50px;
+    }
+    .card {
+        margin-left: 10rem;
+    }
+    #nav-links2 ul{
+    margin-left: -4rem;
+}
+     #log-links2 ul{
+    margin-right: -4rem;
+}
+     #nav-links2 li{
+    margin-right: 2rem;
+}
+    .anit-body{
+        height: 39rem;
+    }
+     .anit-body2{
+        height: 38rem;
+    }
+    #nav-links ul{
+    margin-left: 3rem;
+}
+    
+
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 11px;
+    }
+    #log-links2 ul{
+    margin-right: -22rem;
+}
+
+    header {
+        height: 60rem;
+    }
+    .card {
+        margin-left: 20rem;
+    }
+    #main{
+        height: 20rem;
+    }
+    #nav-links2 ul{
+    margin-left: -19rem;
+}
+     #nav-links2 li{
+    margin-right: 3rem;
+}
+    .anit-body{
+        height: 29rem;
+    }
+     .anit-body2{
+        height: 30rem;
+    }
+    #nav-links ul{
+    margin-left: 3rem;
+}
+}

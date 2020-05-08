@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ankara</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a08ae758b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container clearfix">
+
+            <div id="nav-links">
+                <ul>
+                    <li class="nav-item">
+                        <a href="hakkinda.html" class="nav-link text-uppercase">
+                            Hakkında
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ozgecmis.html" class="nav-link text-uppercase">
+                            Özgeçmiş
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sehrim.html" class="nav-link text-uppercase">
+                            Şehrim
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mirasimiz.html" class="nav-link text-uppercase">
+                            Mirasımız
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="log-links">
+                <ul>
+                    <li class="nav-item">
+                        <a href="iletisim.html" class="nav-link text-uppercase">
+                            İletişim
+                        </a></li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link text-uppercase">
+                            Login
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <form action="bilgi.php" method="POST" style="margin-left: 33%;margin-top: 5%;">
+            <table align="center" class="iki">
+                <tr>
+                    <td>Kullanici Adi :</td>
+                    <td><input type="text" name="isim" required></td>
+                </tr>
+                <tr>
+                    <td>Sifre :</td>
+                    <td><input type="password" name="sifre" required></td>
+                </tr>
+                <tr>
+                    <td>E-posta :</td>
+                    <td><input type="email" name="eposta" required></td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td><input type="radio" name="cinsiyet" value="Erkek" required>Erkek
+                        <input type="radio" name="cinsiyet" value="Kadın" required>Kadın</td>
+                </tr>
+                <tr>
+                    <td>Memleketi :</td>
+                    <td>
+                        <select name="sehirler">
+                            <option value="Ankara">Ankara</option>
+                            <option value="İstanbul">İstanbul</option>
+                            <option value="İzmir">İzmir</option>
+                            <option value="Sakarya">Sakarya</option>
+                            <option value="Kocaeli">Kocaeli</option>
+                        </select>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Giris"></td>
+                </tr>
+            </table>
+        </form>
+    </header>
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase">Fatih Aytar</h2>
+            <hr class="star-dark"><i class="fas fa-star" id="star"></i>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
